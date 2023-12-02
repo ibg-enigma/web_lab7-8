@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    width: 500px;
+    margin: 0 auto;
+} */
+
+body {
+    background-color: rgb(37, 34, 34);
+    color:antiquewhite;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4em 2em;
+}
+
+.button {
+    font-size: 2em;
+    font-weight: bold;
+    /* border: 1px solid red; */
+}
+
+#photo {
+    border-radius: 1em;
+}
+
+.button:hover {
+    cursor: pointer;
+}
